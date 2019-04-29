@@ -57,7 +57,7 @@ map(input, ~ sample(1:10, size = .x, replace = TRUE))
 
 # traditional approach to apply anonymous function
 # TOO VERBOSE!
-map(input, function(x) sample(1:10, size = .x, replace = TRUE))
+map(input, function(x) sample(1:10, size = x, replace = TRUE))
 ```
 
 
