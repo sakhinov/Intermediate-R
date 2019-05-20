@@ -114,7 +114,7 @@ glimpse(df)
 ```
 
 
-12. The "Factor_D" variable contains 15 unique values (i.e. 10, 15, 20, 21, ..., 85, 90).  There is at least one single observation where `Factor_D = 26` (possibly more).  Assume these observations were improperly recorded and, in fact, the value should be 25.  
+12. The "Factor_D" variable contains 13 unique values (i.e. 10, 15, 20, 21, ..., 70, 90).  There is at least one single observation where `Factor_D = 26` (possibly more).  Assume these observations were improperly recorded and, in fact, the value should be 25.  
 
 Using `ifelse()` (or __dplyr__'s `if_else()`) inside `mutate()`, recode any values where `Factor_D == 26` to be 25.
 
